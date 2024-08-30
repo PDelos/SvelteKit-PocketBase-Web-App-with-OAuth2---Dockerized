@@ -58,5 +58,3 @@ To properly configure OAuth2 providers, ensure the following:
 - [SvelteKit Documentation](https://kit.svelte.dev/docs)
 - [PocketBase Documentation](https://pocketbase.io/docs)
 ```
-
-This version provides clear instructions on how to configure the OAuth2 system within the PocketBase admin dashboard.
