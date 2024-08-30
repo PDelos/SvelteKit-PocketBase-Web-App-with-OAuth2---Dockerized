@@ -9,11 +9,11 @@ This repository contains a Dockerized SvelteKit and PocketBase web application w
 - **Containerization**: Docker
 
 ## Getting Started
-**Prerequisites**: Docker, Docker Compose
+**Prerequisites**: Docker Desktop (should come with docker compose)
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/PDelos/Datathon_Web.git
+   git clone https://github.com/PDelos/SvelteKit-PocketBase-Web-App-with-OAuth2---Dockerized.git
    cd Datathon_Web
    ```
 
