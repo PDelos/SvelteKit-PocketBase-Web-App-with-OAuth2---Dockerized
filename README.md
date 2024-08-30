@@ -1,5 +1,3 @@
-Certainly! Here's the modified README content in markdown code format:
-
 # SvelteKit-PocketBase-Web-App-with-OAuth2---Dockerized
 
 ## Overview
