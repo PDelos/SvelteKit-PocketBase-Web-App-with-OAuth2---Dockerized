@@ -6,9 +6,12 @@ echo Removing containers...
 docker rm sveltekit pocketbase
 
 echo Removing images...
-docker rmi datathon_web-frontend datathon_web-backend
+docker rmi sveltekit-pocketbase-web-app-with-oauth2---dockerized-backend:latest
+docker rmi sveltekit-pocketbase-web-app-with-oauth2---dockerized-frontend:latest
 
 echo Removing volumes...
-docker volume rm datathon_web_front_build datathon_web_front_node_modules datathon_web_front_svelte_kit
+docker volume rm sveltekit-pocketbase-web-app-with-oauth2---dockerized_front_svelte_kit 
+docker volume rm sveltekit-pocketbase-web-app-with-oauth2---dockerized_front_node_modules
+docker volume rm sveltekit-pocketbase-web-app-with-oauth2---dockerized_front_build
 
 echo All done!
